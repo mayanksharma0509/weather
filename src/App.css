@@ -1,0 +1,291 @@
+.h{
+  
+ height: 840px ;
+ background-position: center;
+ width: 100vw;
+ background-size: cover;
+ background-color: black;
+}
+.navbutton {
+  background-color: rgb(255, 145, 0);
+  padding: 20px 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  position: absolute; 
+  top: 0px;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+.navbutton a{
+  color: black;
+}
+.navbutton a:hover{
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+
+/* Style the form container */
+.form1 {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 100px;
+    
+}
+
+/* Style labels inside AuthField */
+.form1 label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style input fields */
+.form1 input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Style the login button */
+.loginb button {
+  width: 200px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  position: relative;
+  left: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.9s ease
+ 
+  
+}
+
+/* Hover effect for button */
+.loginb button:hover {
+  background-color: #0056b3;
+}
+.signup {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 100px;
+}
+
+/* Style labels inside AuthField */
+.signup label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style input fields */
+.signup input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Style the login button */
+.signup button {
+  width: 200px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  position: relative;
+  left: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.9s ease
+ 
+  
+}
+
+/* Hover effect for button */
+.signb button:hover {
+  background-color: #0056b3;
+}
+
+.dash{
+height: 100vh;
+width: 100vw;
+
+}
+.dashsec{
+text-align: center;
+background-color: rgba(101, 221, 96, 0.678);
+padding-bottom: 100px;
+min-height: 100px;
+}
+
+
+
+.chart1{
+  position: relative;
+  bottom: 660px;
+  left: 600px;
+  min-width: 700px;
+  max-height: 170px;
+}
+.chart2{
+  position: relative;
+  bottom: 370px;
+  left: 600px;
+  min-width: 700px;
+  max-height: 170px;
+}
+.chart3{
+  position: relative;
+  bottom: 800px;
+  left: 600px;
+  min-width: 700px;
+  max-height: 170px;
+}
+
+
+.clientst{
+  position: relative;
+  top: 80px;
+  right: -20px;
+  font-size: large;
+  background-color: white;  
+  color: black;
+  padding: 5px;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.gender{
+  color: black;
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+}
+.portfolio{
+
+}
+
+.hello{
+  position: relative;
+  bottom: 300px;
+  right: 200px;
+  text-align: right;
+}
+.h1{
+  height: 1000px ;
+ background-position: center;
+ width: 100vw;
+ background-size: cover;
+ background-color: black;
+ 
+}
+
+.img{
+  position: relative;
+  right: 150px;
+  top: -30px;
+}
+.p1,.p2{
+  width: 1000px;
+  position: relative;
+  right: -350px;
+  bottom: 250px;
+  font-size: bold;
+}
+
+.p2{
+  font-weight: bolder;
+}
+
+.exp{
+  background-color: rgba(66, 66, 66, 0.486);
+  position: relative;
+  text-align: center;
+  top: -200px;
+}
+.l1{
+  margin: 50px;
+  background-color: rgba(82, 79, 79, 0.76);
+  font-size: larger;
+  font-weight: bolder;
+  position: relative;
+  bottom: 150px;
+  padding: 20px;
+  border-radius: 20px;
+  right: -200px;
+}
+.l1:hover{
+  background-color: #6e6565d3;
+}
+
+
+.hometext1,.hometext2,.hometext3,.hometext4{
+  position: relative;
+  top: 100px;
+  
+}
+.hometext1{
+  right: -300px;
+}
+.hometext2{
+  right: -450px;
+}
+.hometext3{
+  right: -500px;
+}
+.hometext4{
+  right: -200px;
+  font-size: 2cm;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hometext1 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.hometext2 {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hometext3 {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.hometext4 {
+  animation: fadeIn 2.5s ease-in-out;
+}
